@@ -1,23 +1,102 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A598" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Q9F-FJ-80I">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3676"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Posts Table View Controller - App.Net-->
+        <scene sceneID="5hn-KM-OzI">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="CCCViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <tableViewController id="yyP-PJ-7J0" customClass="CCCPostsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="y1O-HF-teQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="appDotNetPostCell" rowHeight="100" id="ahP-tc-ews" customClass="CCCPostsTableViewCell">
+                                <rect key="frame" x="0.0" y="86" width="320" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ahP-tc-ews" id="V17-7l-1NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bPG-NV-XTV">
+                                            <rect key="frame" x="10" y="10" width="70" height="70"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="70" id="EYn-Nc-Je8"/>
+                                                <constraint firstAttribute="width" constant="70" id="VZ0-NY-EZ3"/>
+                                            </constraints>
+                                        </imageView>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pgh-q5-f3d">
+                                            <rect key="frame" x="88" y="0.0" width="222" height="89"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <attributedString key="attributedText">
+                                                <fragment>
+                                                    <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="bPG-NV-XTV" firstAttribute="top" secondItem="V17-7l-1NO" secondAttribute="top" constant="10" id="0Zg-oq-R5j"/>
+                                        <constraint firstItem="bPG-NV-XTV" firstAttribute="leading" secondItem="V17-7l-1NO" secondAttribute="leading" constant="10" id="6Pc-ld-ftd"/>
+                                        <constraint firstItem="Pgh-q5-f3d" firstAttribute="leading" secondItem="bPG-NV-XTV" secondAttribute="trailing" constant="8" id="K4J-Fl-eiM"/>
+                                        <constraint firstItem="Pgh-q5-f3d" firstAttribute="top" secondItem="V17-7l-1NO" secondAttribute="top" id="SPb-zP-3ui"/>
+                                        <constraint firstAttribute="bottom" secondItem="Pgh-q5-f3d" secondAttribute="bottom" constant="10" id="T62-FU-qA2"/>
+                                        <constraint firstAttribute="trailing" secondItem="Pgh-q5-f3d" secondAttribute="trailing" constant="10" id="reE-dM-rSy"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="avatarView" destination="bPG-NV-XTV" id="HHr-10-aiI"/>
+                                    <outlet property="postText" destination="Pgh-q5-f3d" id="0pM-EN-zsL"/>
+                                    <outlet property="postTextView" destination="Pgh-q5-f3d" id="NOb-CJ-k9g"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="yyP-PJ-7J0" id="pO5-MS-CHI"/>
+                            <outlet property="delegate" destination="yyP-PJ-7J0" id="vyT-j5-Soz"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="App.Net" id="eYL-lA-hkD"/>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="r1h-hu-fK9">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <attributedString key="attributedTitle"/>
+                        <connections>
+                            <action selector="triggerRefresh:" destination="yyP-PJ-7J0" eventType="valueChanged" id="zE3-Hi-LIF"/>
+                        </connections>
+                    </refreshControl>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GAb-f5-lmH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="516" y="-79"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="t3h-Er-CvO">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="Q9F-FJ-80I" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="s1H-F5-ZZJ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yyP-PJ-7J0" kind="relationship" relationship="rootViewController" id="NZY-j7-PGc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qBK-Hx-oOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="106" y="-79"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sample.jpg" width="2048" height="1536"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

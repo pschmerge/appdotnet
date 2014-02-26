@@ -1,5 +1,5 @@
 //
-//  CCCViewController.h
+//  CCCPostsTableViewController.h
 //  AppDotNet
 //
 //  Created by Pierce Schmerge on 2/25/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CCCViewController : UIViewController
+@interface CCCPostsTableViewController : UITableViewController
 
 @end

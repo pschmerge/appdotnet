@@ -15,13 +15,17 @@
 		7A0F1C4918BD5BDB0067F902 /* CCCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F1C4818BD5BDB0067F902 /* CCCAppDelegate.m */; };
 		7A0F1C4C18BD5BDB0067F902 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0F1C4A18BD5BDB0067F902 /* Main_iPhone.storyboard */; };
 		7A0F1C4F18BD5BDB0067F902 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0F1C4D18BD5BDB0067F902 /* Main_iPad.storyboard */; };
-		7A0F1C5218BD5BDB0067F902 /* CCCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F1C5118BD5BDB0067F902 /* CCCViewController.m */; };
 		7A0F1C5418BD5BDB0067F902 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0F1C5318BD5BDB0067F902 /* Images.xcassets */; };
 		7A0F1C5B18BD5BDB0067F902 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F1C5A18BD5BDB0067F902 /* XCTest.framework */; };
 		7A0F1C5C18BD5BDB0067F902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F1C3818BD5BDB0067F902 /* Foundation.framework */; };
 		7A0F1C5D18BD5BDB0067F902 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F1C3C18BD5BDB0067F902 /* UIKit.framework */; };
 		7A0F1C6518BD5BDB0067F902 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A0F1C6318BD5BDB0067F902 /* InfoPlist.strings */; };
 		7A0F1C6718BD5BDB0067F902 /* AppDotNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F1C6618BD5BDB0067F902 /* AppDotNetTests.m */; };
+		7A0F1C7218BD5C8A0067F902 /* CCCPostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F1C7118BD5C8A0067F902 /* CCCPostsTableViewController.m */; };
+		7A0F1C7518BD62B60067F902 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0F1C7418BD62B60067F902 /* sample.jpg */; };
+		7A0F1C7818BD67870067F902 /* CCCPostsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F1C7718BD67870067F902 /* CCCPostsTableViewCell.m */; };
+		7A3C699F18BD7A6100648ADE /* CCCPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3C699E18BD7A6100648ADE /* CCCPost.m */; };
+		7A3C69A218BD89DF00648ADE /* CCCPostViewFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3C69A118BD89DF00648ADE /* CCCPostViewFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +51,21 @@
 		7A0F1C4818BD5BDB0067F902 /* CCCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCAppDelegate.m; sourceTree = "<group>"; };
 		7A0F1C4B18BD5BDB0067F902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		7A0F1C4E18BD5BDB0067F902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		7A0F1C5018BD5BDB0067F902 /* CCCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCViewController.h; sourceTree = "<group>"; };
-		7A0F1C5118BD5BDB0067F902 /* CCCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCViewController.m; sourceTree = "<group>"; };
 		7A0F1C5318BD5BDB0067F902 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7A0F1C5918BD5BDB0067F902 /* AppDotNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDotNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0F1C5A18BD5BDB0067F902 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7A0F1C6218BD5BDB0067F902 /* AppDotNetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppDotNetTests-Info.plist"; sourceTree = "<group>"; };
 		7A0F1C6418BD5BDB0067F902 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A0F1C6618BD5BDB0067F902 /* AppDotNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDotNetTests.m; sourceTree = "<group>"; };
+		7A0F1C7018BD5C8A0067F902 /* CCCPostsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCPostsTableViewController.h; sourceTree = "<group>"; };
+		7A0F1C7118BD5C8A0067F902 /* CCCPostsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCPostsTableViewController.m; sourceTree = "<group>"; };
+		7A0F1C7418BD62B60067F902 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		7A0F1C7618BD67870067F902 /* CCCPostsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCPostsTableViewCell.h; sourceTree = "<group>"; };
+		7A0F1C7718BD67870067F902 /* CCCPostsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCPostsTableViewCell.m; sourceTree = "<group>"; };
+		7A3C699D18BD7A6100648ADE /* CCCPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCPost.h; sourceTree = "<group>"; };
+		7A3C699E18BD7A6100648ADE /* CCCPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCPost.m; sourceTree = "<group>"; };
+		7A3C69A018BD89DF00648ADE /* CCCPostViewFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCPostViewFormatter.h; sourceTree = "<group>"; };
+		7A3C69A118BD89DF00648ADE /* CCCPostViewFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCPostViewFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +125,10 @@
 		7A0F1C3E18BD5BDB0067F902 /* AppDotNet */ = {
 			isa = PBXGroup;
 			children = (
-				7A0F1C4718BD5BDB0067F902 /* CCCAppDelegate.h */,
-				7A0F1C4818BD5BDB0067F902 /* CCCAppDelegate.m */,
-				7A0F1C4A18BD5BDB0067F902 /* Main_iPhone.storyboard */,
-				7A0F1C4D18BD5BDB0067F902 /* Main_iPad.storyboard */,
-				7A0F1C5018BD5BDB0067F902 /* CCCViewController.h */,
-				7A0F1C5118BD5BDB0067F902 /* CCCViewController.m */,
+				7A0F1C7B18BD679F0067F902 /* Models */,
+				7A0F1C7918BD678F0067F902 /* Views */,
+				7A0F1C7A18BD67970067F902 /* Controllers */,
+				7A0F1C7318BD629A0067F902 /* resources */,
 				7A0F1C5318BD5BDB0067F902 /* Images.xcassets */,
 				7A0F1C3F18BD5BDB0067F902 /* Supporting Files */,
 			);
@@ -129,6 +138,8 @@
 		7A0F1C3F18BD5BDB0067F902 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7A0F1C4718BD5BDB0067F902 /* CCCAppDelegate.h */,
+				7A0F1C4818BD5BDB0067F902 /* CCCAppDelegate.m */,
 				7A0F1C4018BD5BDB0067F902 /* AppDotNet-Info.plist */,
 				7A0F1C4118BD5BDB0067F902 /* InfoPlist.strings */,
 				7A0F1C4418BD5BDB0067F902 /* main.m */,
@@ -153,6 +164,45 @@
 				7A0F1C6318BD5BDB0067F902 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A0F1C7318BD629A0067F902 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A0F1C4A18BD5BDB0067F902 /* Main_iPhone.storyboard */,
+				7A0F1C4D18BD5BDB0067F902 /* Main_iPad.storyboard */,
+				7A0F1C7418BD62B60067F902 /* sample.jpg */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		7A0F1C7918BD678F0067F902 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A0F1C7618BD67870067F902 /* CCCPostsTableViewCell.h */,
+				7A0F1C7718BD67870067F902 /* CCCPostsTableViewCell.m */,
+				7A3C69A018BD89DF00648ADE /* CCCPostViewFormatter.h */,
+				7A3C69A118BD89DF00648ADE /* CCCPostViewFormatter.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7A0F1C7A18BD67970067F902 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A0F1C7018BD5C8A0067F902 /* CCCPostsTableViewController.h */,
+				7A0F1C7118BD5C8A0067F902 /* CCCPostsTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7A0F1C7B18BD679F0067F902 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A3C699D18BD7A6100648ADE /* CCCPost.h */,
+				7A3C699E18BD7A6100648ADE /* CCCPost.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +253,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Pierce Schmerge";
 				TargetAttributes = {
+					7A0F1C3418BD5BDB0067F902 = {
+						DevelopmentTeam = BMJ9L5LPQ2;
+					};
 					7A0F1C5818BD5BDB0067F902 = {
 						TestTargetID = 7A0F1C3418BD5BDB0067F902;
 					};
@@ -234,6 +287,7 @@
 			files = (
 				7A0F1C4F18BD5BDB0067F902 /* Main_iPad.storyboard in Resources */,
 				7A0F1C5418BD5BDB0067F902 /* Images.xcassets in Resources */,
+				7A0F1C7518BD62B60067F902 /* sample.jpg in Resources */,
 				7A0F1C4C18BD5BDB0067F902 /* Main_iPhone.storyboard in Resources */,
 				7A0F1C4318BD5BDB0067F902 /* InfoPlist.strings in Resources */,
 			);
@@ -254,9 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3C699F18BD7A6100648ADE /* CCCPost.m in Sources */,
+				7A0F1C7218BD5C8A0067F902 /* CCCPostsTableViewController.m in Sources */,
 				7A0F1C4918BD5BDB0067F902 /* CCCAppDelegate.m in Sources */,
-				7A0F1C5218BD5BDB0067F902 /* CCCViewController.m in Sources */,
 				7A0F1C4518BD5BDB0067F902 /* main.m in Sources */,
+				7A0F1C7818BD67870067F902 /* CCCPostsTableViewCell.m in Sources */,
+				7A3C69A218BD89DF00648ADE /* CCCPostViewFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +450,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppDotNet/AppDotNet-Prefix.pch";
 				INFOPLIST_FILE = "AppDotNet/AppDotNet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,10 +467,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppDotNet/AppDotNet-Prefix.pch";
 				INFOPLIST_FILE = "AppDotNet/AppDotNet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -475,6 +540,7 @@
 				7A0F1C6C18BD5BDB0067F902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A0F1C6D18BD5BDB0067F902 /* Build configuration list for PBXNativeTarget "AppDotNetTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +549,7 @@
 				7A0F1C6F18BD5BDB0067F902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
