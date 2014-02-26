@@ -8,6 +8,9 @@
 
 #import "CCCPostViewFormatter.h"
 
+static const NSUInteger kTextViewHorizontalPadding = 5;
+static const NSUInteger kTextVieVerticalPadding = 10;
+
 @implementation CCCPostViewFormatter
 
 + (NSMutableAttributedString *)highlightHashTagsInText:(NSString *)text highlightColor:(UIColor *)highlightColor {
@@ -41,7 +44,7 @@
 + (CGFloat)heightForAttributedString:(NSAttributedString *)attributedString forWidth:(CGFloat)width {
    
    CGFloat retVal = 0;
-   CGFloat labelWidth = width - (5 * 2);
+   CGFloat labelWidth = width - (kTextViewHorizontalPadding * 2);
    NSStringDrawingOptions options = NSStringDrawingUsesLineFragmentOrigin |
    NSStringDrawingUsesFontLeading;
    
@@ -51,7 +54,7 @@
                                             options:options
                                             context:nil];
    
-   retVal = (CGFloat) (ceil(boundingRect.size.height) + (10 * 2));
+   retVal = (CGFloat) (ceil(boundingRect.size.height) + (kTextVieVerticalPadding * 2));
    
    return retVal;
 }

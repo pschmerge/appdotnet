@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppDotNet/CCCPostViewFormatter.m"
-            timestampString = "415084645.045357"
+            timestampString = "415108230.183823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "+highlightHashTagsInText:highlightColor:"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppDotNet/CCCPostViewFormatter.m"
-            timestampString = "415084645.045357"
+            timestampString = "415108230.183823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "+highlightHashTagsInText:highlightColor:"
             landmarkType = "5">
          </BreakpointContent>
